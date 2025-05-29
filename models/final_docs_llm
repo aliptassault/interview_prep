@@ -52,6 +52,7 @@ num_workers = multiprocessing.cpu_count()
 #         mlock=True  # Keep model in memory
 #     )
 groq_api_key = "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"
+another_Key= "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"
 def create_llm():
     return ChatGroq(groq_api_key=groq_api_key,model_name="Llama3-8b-8192")
 # Initialize model once at startup
